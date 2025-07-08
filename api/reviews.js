@@ -8,13 +8,12 @@ export default async function handler(req, res) {
     const response = await fetch(url);
     const data = await response.json();
 
-    console.log('Resposta da API Google:', data);
-
-    if (!data.result || !data.result.reviews) {
-      return res.status(200).json({ reviews: [] });
+    if (data.status !== 'OK') {
+      console.error('Erro na resposta da API:', data);
+      return res.status(500).json({ error: 'Erro na API do Google', status: data.status });
     }
 
-    const reviews = data.result.reviews.slice(0, 3);
+    const reviews = data.result.reviews?.slice(0, 3) || [];
     res.status(200).json({ reviews });
   } catch (error) {
     console.error('Erro ao buscar comentários:', error);
