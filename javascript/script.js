@@ -3,7 +3,7 @@ document.getElementById("whatsapp-form").addEventListener("submit", function (e)
     e.preventDefault();
     const nome = document.getElementById("nome").value.trim();
     const mensagem = document.getElementById("mensagem").value.trim();
-    const numero = "5511999999999";
+    const numero = "5542988124847";
     const texto = `Olá, meu nome é ${nome}. ${mensagem}`;
     const link = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
     window.open(link, "_blank");
