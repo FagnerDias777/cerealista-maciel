@@ -1,9 +1,11 @@
 Cerealista Maciel
 
 Site institucional da Cerealista Maciel, empresa especializada na compra e venda de grãos, beneficiamento, secagem, empacotamento de feijão e armazenamento. O objetivo é apresentar os serviços da empresa, sua equipe, história e canais de contato de forma clara e acessível.
+
 📸 Visão Geral
 
 Preview do site
+
 🔗 Acesse o site
 
     cerealistamaciel.com.br
@@ -56,15 +58,17 @@ Preview do site
 🧑‍💼 Sobre a Empresa
 
 A Cerealista Maciel atua no setor agrícola desde 1979, com forte presença no Paraná. Oferece serviços de qualidade no processamento e comercialização de grãos, mantendo um legado de tradição, inovação e parceria com produtores e compradores.
+
 📲 Contato
 
-    WhatsApp: (42) 99999-9999
+    WhatsApp: (42)98812-4847
 
-    Email: contato@cerealistamaciel.com.br
+    Email: fontanaemaciel@gmail.com
 
 ⚖️ Licença
 
 Este projeto é de uso institucional e não possui uma licença de código aberto definida. Para fins comerciais ou de redistribuição, entre em contato com a empresa.
+
 👨‍💻 Autor
 
 Desenvolvido por Fagner Dias - Projeto para Cerealista Maciel.
